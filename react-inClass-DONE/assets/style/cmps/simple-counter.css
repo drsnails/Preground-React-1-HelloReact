@@ -1,0 +1,40 @@
+.simple-counter {
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+
+.count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-counter button {
+    margin: 5px;
+    border: 0;
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 50%;
+}
+
+.simple-counter .dark-btn {
+    padding: 15px;
+}
+
+.simple-counter button:disabled {
+    background-color: grey;
+    opacity: 0.7;
+    cursor: default;
+}
+
+
+.high {
+    color: red;
+}
+
+.low {
+    color: green;
+}

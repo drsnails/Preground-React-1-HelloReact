@@ -1,0 +1,10 @@
+.user-preview {
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 5px;
+    width: 300px;
+    text-align: center;   
+}
+.user-preview button {
+    margin: 5px;
+}
